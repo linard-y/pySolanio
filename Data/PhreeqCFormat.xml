@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Format id="PhreeqCFormat">
+  <Extension>Text files (*.txt)|*.txt|PhreeqC input files (*.pqi)|*pqi</Extension>
+  <Link>
+    <key name="Temperature" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">temp</key>
+    <key name="pH" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">pH</key>
+    <key name="Redox potential" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Redox</key>
+    <key name="Alkalinity (TA)" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Alkalinity</key>
+    <key name="TIC" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">C(4)</key>
+    <key name="Sodium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Na</key>
+    <key name="Potassium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">K</key>
+    <key name="Calcium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Ca</key>
+    <key name="Magnesium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Mg</key>
+    <key name="Ammonium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">N(-3)</key>
+    <key name="Chloride" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Cl</key>
+    <key name="Sulfate" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">S(6)</key>
+    <key name="Nitrate" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">N(5)</key>
+    <key name="Nitrite" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">N(3)</key>
+    <key name="Bromide" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Br</key>
+    <key name="Fluoride" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">F</key>
+    <key name="Iodide" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">I</key>
+    <key name="Total Sulfide" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">S(-2)</key>
+    <key name="OrthoPhosphate" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">P</key>
+    <key name="Lithium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Li</key>
+    <key name="Boron" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">B</key>
+    <key name="Aluminium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Al</key>
+    <key name="Silicon" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Si</key>
+    <key name="Chromium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Cr</key>
+    <key name="Iron" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Fe</key>
+    <key name="Manganese" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Mn</key>
+    <key name="Cobalt" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Co</key>
+    <key name="Nickel" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Ni</key>
+    <key name="Copper" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Cu</key>
+    <key name="Zinc" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Zn</key>
+    <key name="Arsenic" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">As</key>
+    <key name="Selenium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Se</key>
+    <key name="Rubidium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Rb</key>
+    <key name="Strontium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Sr</key>
+    <key name="Zirconium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Zr</key>
+    <key name="Niobium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Nb</key>
+    <key name="Molybdenium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Mo</key>
+    <key name="Silver" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Ag</key>
+    <key name="Tin" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Sn</key>
+    <key name="Cesium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Cs</key>
+    <key name="Barium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Ba</key>
+    <key name="Lanthanum" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">La</key>
+    <key name="Cerium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Ce</key>
+    <key name="Neodymium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Nd</key>
+    <key name="Europium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Eu</key>
+    <key name="Gadolinium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Gd</key>
+    <key name="Lead" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Pb</key>
+    <key name="Thorium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Th</key>
+    <key name="Uranium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">U</key>
+    <key name="Hydrogen" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">H</key>
+    <key name="Hydrogen" dependency="1" complete="{2}H" error_type="0" error="" analyticaltechnic="">2H</key>
+    <key name="Oxygen" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">O(0)</key>
+    <key name="Nitrogen" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">N</key>
+    <key name="Carbon DiOxide" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">CO2</key>
+    <key name="Methane" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">CH4</key>
+    <key name="Ethane" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">C2H6</key>
+    <key name="Propane" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">C3H8</key>
+    <key name="Hydrogen Sulfide" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">H2S</key>
+    <key name="Helium" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">He</key>
+    <key name="Neon" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Ne</key>
+    <key name="Argon" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Ar</key>
+    <key name="Krypton" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Kr</key>
+    <key name="Xenon" dependency="0" complete="" error_type="0" error="" analyticaltechnic="">Xe</key>
+  </Link>
+</Format>
