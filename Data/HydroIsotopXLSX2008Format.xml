@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Format id="HydroIsotopXLSX2008Format">
+  <Extension>Excel 2007 files|*.xlsx</Extension>
+  <Reference_Row>5</Reference_Row>
+  <Operator_Row>0</Operator_Row>
+  <Comment_Row>0</Comment_Row>
+  <Business>
+    <Date_of_invoice_Row>17</Date_of_invoice_Row>
+    <Date_of_order_Row>13</Date_of_order_Row>
+    <Order_No>12</Order_No>
+    <Reception_of_sample>14</Reception_of_sample>
+    <Results_waited>14</Results_waited>
+    <Return_of_container>16</Return_of_container>
+  </Business>
+  <Sample>
+    <Id>1</Id>
+    <Sampling_Place>2</Sampling_Place>
+    <Operation_Code>0</Operation_Code>
+    <Container_number>6</Container_number>
+    <Description>9</Description>
+    <Sampling_Conditions_informations>0</Sampling_Conditions_informations>
+    <Sampling_date>4</Sampling_date>
+    <Sampling_time>5</Sampling_time>
+    <Start_of_measurment>15</Start_of_measurment>
+    <Total_sample_volume>8</Total_sample_volume>
+    <Treatment>10</Treatment>
+    <Type>7</Type>
+  </Sample>
+  <First_Solution_Column>4</First_Solution_Column>
+  <First_Parameter_Row>25</First_Parameter_Row>
+  <Parameter_Name_Column>1</Parameter_Name_Column>
+  <Parameter_QuickName_Column>2</Parameter_QuickName_Column>
+  <Parameter_Unit_Column>3</Parameter_Unit_Column>
+  <Parameter_Error_Column>0</Parameter_Error_Column>
+  <Parameter_Error_Type_Column>0</Parameter_Error_Type_Column>
+  <Parameter_Technic_Column>0</Parameter_Technic_Column>
+  <Parameter_Comment_Column>0</Parameter_Comment_Column>
+  <RowToSkip>32,36,52,83,90,107,157,160</RowToSkip>
+  <Link>
+    <key name="Temperature" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0" >Temperature</key>
+    <key name="pH" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">pH value (20 °C) Lab.</key>
+    <key name="Redox potential" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Redox potential EH</key>
+    <key name="Electrical conductivity" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Spec. electr. conductivity (25 °C) Lab.</key>
+    <key name="Alkalinity (TA)" dependency="0" complete="" analyticaltechnic="Titration" error="" error_type ="0">Alkalinity (pH 4.3) Lab.</key>
+    <key name="Turbidity" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Turbidity sensoric</key>
+    <key name="Smell" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Smell sensoric</key>
+    <key name="Color" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Color</key>
+    <key name="TIC" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Total inorganic carbon</key>
+    <key name="TIC" dependency="3" complete="{13}C" analyticaltechnic="" error="" error_type ="0">Carbon-13-TIC</key>
+    <key name="TIC" dependency="1" complete="{14}C" analyticaltechnic="" error="" error_type ="0">Carbon-14-TIC</key>
+    <key name="TOC" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Total organic carbon</key>
+    <key name="TOC" dependency="3" complete="{13}C" analyticaltechnic="" error="" error_type ="0">Carbon-13-TOC</key>
+    <key name="DOC" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Dissolved organic carbon</key>
+    <key name="Acetate" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Acetate</key>
+    <key name="Sodium" dependency="0" complete="" analyticaltechnic="IC" error="3" error_type ="1" >Sodium</key>
+    <key name="Potassium" dependency="0" complete="" analyticaltechnic="IC" error="3" error_type ="1">Potassium</key>
+    <key name="Calcium" dependency="0" complete="" analyticaltechnic="IC" error="3" error_type ="1">Calcium</key>
+    <key name="Magnesium" dependency="0" complete="" analyticaltechnic="IC" error="3" error_type ="1">Magnesium</key>
+    <key name="Ammonium" dependency="0" complete="" analyticaltechnic="IC" error="3" error_type ="1">Ammonium</key>
+    <key name="Ammonium" dependency="3" complete="{15}N" analyticaltechnic="IC" error="3" error_type ="1">Nitrogen-15 -NH4</key>
+    <key name="Chloride" dependency="0" complete="" analyticaltechnic="IC" error="3" error_type ="1">Chloride</key>
+    <key name="Chloride" dependency="1" complete="{36}Cl" analyticaltechnic="" error="" error_type ="0">Chlorine-36</key>
+    <key name="Chloride" dependency="3" complete="{37}Cl" analyticaltechnic="" error="" error_type ="0">Chlorine-37</key>
+    <key name="Sulfate" dependency="0" complete="" analyticaltechnic="IC" error="3" error_type ="1">Sulfate</key>
+    <key name="Sulfate" dependency="3" complete="{34}S" analyticaltechnic="" error="" error_type ="0">Sulfur-34-SO4</key>
+    <key name="Sulfate" dependency="3" complete="{18}O" analyticaltechnic="" error="" error_type ="0">Oxygen-18-SO4</key>
+    <key name="Nitrate" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Nitrate</key>
+    <key name="Nitrite" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Nitrite</key>
+    <key name="Bromide" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Bromide</key>
+    <key name="Fluoride" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Fluoride</key>
+    <key name="Iodide" dependency="0" complete="" analyticaltechnic="IC" error="5" error_type ="1">Iodide</key>
+    <key name="Total Sulfide" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Total Sulfide</key>
+    <key name="OrthoPhosphate" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">OrthoPhosphate</key>
+    <key name="ThioSulfate" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">ThioSulfate</key>
+    <key name="Lithium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Lithium</key>
+    <key name="Lithium" dependency="3" complete="{6}Li" analyticaltechnic="" error="" error_type ="0">Lithium-6</key>
+    <key name="Boron" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Boron</key>
+    <key name="Boron" dependency="1" complete="{11}B" analyticaltechnic="" error="" error_type ="0">Boron-11</key>
+    <key name="Aluminium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Aluminium</key>
+    <key name="Silicon" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Silicon</key>
+    <key name="Chromium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Chromium</key>
+    <key name="Iron" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Iron</key>
+    <key name="Manganese" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Manganese</key>
+    <key name="Cobalt" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Cobalt</key>
+    <key name="Nickel" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Nickel</key>
+    <key name="Copper" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Copper</key>
+    <key name="Zinc" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Zinc</key>
+    <key name="Arsenic" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Arsenic</key>
+    <key name="Selenium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Selenium</key>
+    <key name="Rubidium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Rubidium</key>
+    <key name="Strontium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Strontium</key>
+    <key name="Strontium" dependency="2" complete="{87}Sr/{86}Sr" analyticaltechnic="" error="" error_type ="0">Strontium-87/Strontium-86</key>
+    <key name="Zirconium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Zirconium</key>
+    <key name="Niobium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Niobium</key>
+    <key name="Molybdenium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Molybdenium</key>
+    <key name="Silver" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Silver</key>
+    <key name="Tin" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Tin</key>
+    <key name="Cesium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Cesium</key>
+    <key name="Barium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Barium</key>
+    <key name="Lanthanum" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Lanthanum</key>
+    <key name="Cerium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Cerium</key>
+    <key name="Neodymium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Neodymium</key>
+    <key name="Europium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Europium</key>
+    <key name="Gadolinium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Gadolinium</key>
+    <key name="Lead" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Lead</key>
+    <key name="Thorium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Thorium</key>
+    <key name="Uranium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Uranium</key>
+    <key name="Uranium" dependency="2" complete="{234}U/{238}U" analyticaltechnic="" error="" error_type ="0">Uranium-234/Uranium-238</key>
+    <key name="Hydrogen" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Hydrogen</key>
+    <key name="Hydrogen" dependency="1" complete="{2}H" analyticaltechnic="" error="" error_type ="0">Deuterium</key>
+    <key name="Hydrogen" dependency="1" complete="{3}H" analyticaltechnic="" error="" error_type ="0">Tritium</key>
+    <key name="Oxygen" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Oxygen</key>
+    <key name="Oxygen" dependency="1" complete="{18}O" analyticaltechnic="" error="" error_type ="0">Oxygen-18</key>
+    <key name="Nitrogen" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Nitrogen</key>
+    <key name="Nitrogen" dependency="3" complete="{15}N" analyticaltechnic="" error="" error_type ="0">Nitrogen-15 -N2</key>
+    <key name="Carbon DiOxide" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Carbon DiOxide</key>
+    <key name="Carbon DiOxide" dependency="3" complete="{13}C" analyticaltechnic="" error="" error_type ="0">Carbon-13-CO2</key>
+    <key name="Methane" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Methane</key>
+    <key name="Methane" dependency="3" complete="{13}C" analyticaltechnic="" error="" error_type ="0">Carbon-13-CH4</key>
+    <key name="Methane" dependency="3" complete="{2}H" analyticaltechnic="" error="" error_type ="0">Deuterium-CH4</key>
+    <key name="Ethane" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Ethane</key>
+    <key name="Ethane" dependency="3" complete="{13}C" analyticaltechnic="" error="" error_type ="0">Carbon-13-C2H6</key>
+    <key name="Propane" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Propane</key>
+    <key name="Propane" dependency="3" complete="{13}C" analyticaltechnic="" error="" error_type ="0">Carbon-13-C3H8</key>
+    <key name="i-Butane" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">i-Butane</key>
+    <key name="n-Butane" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">n-Butane</key>
+    <key name="n-Pentane" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">n-Pentane</key>
+    <key name="Hydrogen Sulfide" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Hydrogen Sulfide</key>
+    <key name="Hydrogen Sulfide" dependency="3" complete="{34}S" analyticaltechnic="" error="" error_type ="0">Sulfur-34-H2S</key>
+    <key name="TriChloroFluoroMethane" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">TriChloroFluoroMethane</key>
+    <key name="DiChlorodDiFluoroMethane" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">DiChlorodDiFluoroMethane</key>
+    <key name="TriChloroTriFluoroEthane" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">TriChloroTriFluoroEthane</key>
+    <key name="SulfurHexaFluoride" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">SulfurHexaFluoride</key>
+    <key name="Helium" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Helium</key>
+    <key name="Helium" dependency="1" complete="{4}He" analyticaltechnic="" error="" error_type ="0">Helium-4</key>
+    <key name="Helium" dependency="2" complete="{3}He/{4}He" analyticaltechnic="" error="" error_type ="0">Helium-3/Helium-4</key>
+    <key name="Neon" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Neon</key>
+    <key name="Neon" dependency="1" complete="{20}Ne" analyticaltechnic="" error="" error_type ="0">Neon-20</key>
+    <key name="Neon" dependency="2" complete="{21}Ne/{22}Ne" analyticaltechnic="" error="" error_type ="0">Neon-21/Neon-22</key>
+    <key name="Neon" dependency="2" complete="{20}Ne/{22}Ne" analyticaltechnic="" error="" error_type ="0">Neon-20/Neon-22</key>
+    <key name="Argon" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Argon</key>
+    <key name="Argon" dependency="1" complete="{40}Ar" analyticaltechnic="" error="" error_type ="0">Argon-40</key>
+    <key name="Argon" dependency="2" complete="{40}Ar/{36}Ar" analyticaltechnic="" error="" error_type ="0">Argon-40/Argon-36</key>
+    <key name="Argon" dependency="2" complete="{38}Ar/{36}Ar" analyticaltechnic="" error="" error_type ="0">Argon-38/Argon-36</key>
+    <key name="Krypton" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Krypton</key>
+    <key name="Krypton" dependency="1" complete="{84}Kr" analyticaltechnic="" error="" error_type ="0">Krypton-84</key>
+    <key name="Krypton" dependency="2" complete="{80}Kr/{84}Kr" analyticaltechnic="" error="" error_type ="0">Krypton-80/Krypton-84</key>
+    <key name="Krypton" dependency="2" complete="{82}Kr/{84}Kr" analyticaltechnic="" error="" error_type ="0">Krypton-82/Krypton-84</key>
+    <key name="Krypton" dependency="2" complete="{83}Kr/{84}Kr" analyticaltechnic="" error="" error_type ="0">Krypton-83/Krypton-84</key>
+    <key name="Krypton" dependency="2" complete="{86}Kr/{84}Kr" analyticaltechnic="" error="" error_type ="0">Krypton-86/Krypton-84</key>
+    <key name="Xenon" dependency="0" complete="" analyticaltechnic="" error="" error_type ="0">Xenon</key>
+    <key name="Xenon" dependency="1" complete="{132-Xe}" analyticaltechnic="" error="" error_type ="0">Xenon-132</key>
+    <key name="Xenon" dependency="2" complete="{129}Xe/{132}Xe" analyticaltechnic="" error="" error_type ="0">Xénon-129/Xénon-132</key>
+    <key name="Xenon" dependency="2" complete="{130}Xe/{132}Xe" analyticaltechnic="" error="" error_type ="0">Xénon-130/Xénon-132</key>
+    <key name="Xenon" dependency="2" complete="{131}Xe/{132}Xe" analyticaltechnic="" error="" error_type ="0">Xénon-131/Xénon-132</key>
+    <key name="Xenon" dependency="2" complete="{134}Xe/{132}Xe" analyticaltechnic="" error="" error_type ="0">Xénon-134/Xénon-132</key>
+    <key name="Xenon" dependency="2" complete="{136}Xe/{132}Xe" analyticaltechnic="" error="" error_type ="0">Xénon-136/Xénon-132</key>
+  </Link>
+  <Technics>
+    <technic name="ICP">
+      <DetectionLimit></DetectionLimit>
+      <PreTreatment></PreTreatment>
+      <Precision></Precision>
+    </technic>
+    <technic name="Ion chromatography">
+      <DetectionLimit></DetectionLimit>
+      <PreTreatment></PreTreatment>
+      <Precision></Precision>
+    </technic>
+    <technic name="Titration">
+      <DetectionLimit></DetectionLimit>
+      <PreTreatment></PreTreatment>
+      <Precision></Precision>
+    </technic>
+    <technic name="Gas chromatography">
+      <DetectionLimit></DetectionLimit>
+      <PreTreatment></PreTreatment>
+      <Precision></Precision>
+    </technic>
+  </Technics>
+</Format>
+
